@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Teko');
+
 body{
-    /* content: url(foto/ironman-cover.jpg);  
+    background: url(foto/ironman-cover.jpg);  
      margin: 0px;
     width: 100%;
     height: 100%;
-    opacity: 0.5;  */
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .main-block{
     background: #24242C;
@@ -13,7 +16,11 @@ body{
   
 }
 .header-foto{
-    margin: 20px;
+    margin-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 .header-block{
     display: flex;
@@ -29,16 +36,16 @@ body{
     width: 80px; 
 }
 .iron-man{
-    font-size: 90px;
+    font-size: 120px;
     position: relative;
-    left: 150px;
-    top: 1px;
+    left: 80px;
+    top: 0px;
     color: white;
-    width: 600px;
-   
+    width: 800px;
+    font-family: 'Roboto', sans-serif;
 }
 .iron-red{
-    font-size: 80px;
+    font-size: 120px;
     color: red;
 }
 .menu-block{
@@ -57,25 +64,24 @@ body{
 } 
 
 .menu-text{
-       /* padding: 20px; */
-       font-size: 12px;
-       padding-bottom: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding-bottom: 18px;
 }
 .menu-iron{
     width: 37%;
     background: white;
-  
 }
-/* .main-man{
+.main-man{
     position: absolute;
     height: 605px;
-    top: 10px;
-    left: 167px;
-} */
+    top: 240px;
+    left: 667px;
+}
 .menu-iron-line{
     height: 8px;
-    width: 130px;
-    background: blue;
+    width: 110px;
+    background: #E03D24;
     margin: 90px;
 }
 .menu-iron-text{
@@ -86,13 +92,17 @@ body{
     margin-top: 140px;
     margin-left: 80px;
     padding-bottom: 50px;
-  
+    font-family: 'Roboto', sans-serif;
+    color: #24242C
+}
+.date-line{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 .menu-line-footer{
-    height: 4px;
-    width: 300px;
-    background: blue;
-    
+    height: 1px;
+    width: 200px;
+    background: #23232B;
 }
 .block-right{
     width: 47%;
@@ -116,25 +126,26 @@ body{
     height: 20px;
     width: 20px;
     background: red;
-    margin-top: 70px;
+    margin-top: 100px;
     margin-left: 450px;
 }
 .button-red{
-    height: 20px;
     width: 200px;
     background: red;
     border-radius: 3px;
-    margin-top: 260px;
+    margin-top: 320px;
     margin-left: 280px;
     text-align: center;
     padding: 15px;
     color: white;
 }
 .text-und-b{
-    margin-top: 40px;
     margin-left: 170px;
+    font-family: 'Roboto', sans-serif;
+    color: #5B5961;
 }
 .iron-footer{
-    height: 100%; 
-     width: 100%;
+    background: #23232B;
+    height: 80px;
+    width: 100%;
 }
